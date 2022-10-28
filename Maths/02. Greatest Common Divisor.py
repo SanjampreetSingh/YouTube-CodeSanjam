@@ -19,7 +19,7 @@ class Solution:
     def optimized_euclidean_approach(self, num1: int, num2: int) -> int:
         if num2 == 0:
             return num1
-        return self.optimized_euclidean_approach(num2, num2 % num1)
+        return self.optimized_euclidean_approach(num2, num1 % num2)
 
 
 if __name__ == '__main__':
