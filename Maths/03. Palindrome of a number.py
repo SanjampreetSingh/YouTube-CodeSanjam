@@ -10,7 +10,8 @@ class Solution:
 
         return reversed_number == number
 
+
 if __name__ == "__main__":
     s = Solution()
-    print(s.palindrome_of_a_number(1223221))
-    print(s.palindrome_of_a_number(12232521))
+    print(s.palindrome_of_a_number(123321))
+    print(s.palindrome_of_a_number(12343321))
